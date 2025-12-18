@@ -1,0 +1,7 @@
+```text
+numpy
+networkx
+matplotlib
+pyscipopt
+jupyter
+torch
