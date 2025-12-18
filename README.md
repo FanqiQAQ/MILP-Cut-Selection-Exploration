@@ -18,9 +18,13 @@ By implementing a geometric heuristic ($Score = 0.8 \cdot Efficacy + 0.2 \cdot O
 
 ## 📂 Repository Structure
 * `src/`: Contains the executable code.
-    * `Exploratory_Task.ipynb`: All-in-one Jupyter Notebook containing the data collection pipeline, heuristic implementation, and comparison experiments.
+    * `minimal_experiment.ipynb`: All-in-one Jupyter Notebook containing the data collection pipeline, heuristic implementation, and comparison experiments.
+    * `test.ipynb`:A very basic simple test on SCIP.
+    * `data_collector.ipynb`:Basic pipeline for feature extraction, cut candidates selection and data generation.
+    * `MIS.ipynb`:A complete neural network training process.
+    * `backpackage.ipynb`:Generate data from backpackage problem.
 * `report/`: Contains the detailed PDF report explaining the methodology and process.
-
+* `generated data/`: Contains data generated for HEM natural network learning.
 ## 🚀 How to Run
 ### Prerequisites
 * Python 3.8+
